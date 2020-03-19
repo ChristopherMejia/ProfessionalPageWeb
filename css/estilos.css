@@ -10,7 +10,7 @@ body{
 .portfolio{
     font-family: 'Roboto Condensed', sans-serif;
 }
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5{
     font-family:'Fjalla One', sans-serif;  /*Tipo de Fuente*/
     /* font-weight: normal; */
 }
@@ -20,4 +20,13 @@ h1{
     line-height: 1.5;  /*espacio entre lineas*/
     text-transform: capitalize; /*modificar la letra mayuscula o minuscula*/
     /* text-decoration: ; Decorar el parrafo */
+}
+.project-details{
+    width: 500px;
+}
+.project-image{
+    width: 500px;
+}
+.hero{
+    height: 300px;
 }
