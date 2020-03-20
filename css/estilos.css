@@ -1,5 +1,5 @@
 header{
-    background-color:#08080a;
+    background-color:#101951;
     color:white;
     /* font-family: 'Sen', sans-serif; */
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;;
@@ -33,7 +33,7 @@ h1{
 }
 
 h1 strong{
-    color: #0c819c;
+    color: #36923b;
 }
 
 .project{
@@ -67,7 +67,7 @@ h1 strong{
 .hero{
     height: 300px;
     background-image: url('../image/medicina.png');
-    background-color:#08080a;
+    background-color:#0e184b;
     background-repeat: no-repeat;
     background-position-x: right;
 }
