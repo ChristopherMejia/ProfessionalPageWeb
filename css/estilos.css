@@ -9,9 +9,11 @@ header{
     color:black;
     text-decoration: none;
 }
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .portfolio{
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -25,14 +27,33 @@ h1{
     line-height: 1.5;  /*espacio entre lineas*/
     text-transform: capitalize; /*modificar la letra mayuscula o minuscula*/
     /* text-decoration: ; Decorar el parrafo */
+    margin: 20px 520px 70px 30px
 }
 
 h1 strong{
     color: #0c819c;
 }
+
+.project{
+    /* border-color: blue;
+    border-width: 15px;
+    border-style: solid; */
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    /* margin-right: 0px;
+    margin-top: 0px; */
+}
+.courses-details{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
 .project-details{
     width: 500px;
 }
+
 .project-image{
     width: 500px;
 }
@@ -42,4 +63,12 @@ h1 strong{
     background-color:#f4f3ee;
     background-repeat: no-repeat;
     background-position-x: right;
+}
+
+.courses-description{
+    width: 500px;
+}
+
+.list-obj{
+    margin: 0px;
 }
