@@ -1,13 +1,36 @@
-header{
-    background-color:#101951;
+.header{
+    background-color:#ffffff;
     color:white;
     /* font-family: 'Sen', sans-serif; */
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
     margin: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
 .header a{
-    color:white;
+    color: #051d0d;
+    display: block;
+    height: inherit;
+    align-items: center;
+    padding: 010px;
     text-decoration: none;
+}
+
+
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header ol {
+    display: flex;
+    height: inherit;
+}
+.header ol ul {
+    height: inherit;
 }
 
 body{
@@ -84,8 +107,4 @@ h1 strong{
 
 .courses-description{
     width: 500px;
-}
-
-.list-obj{
-    margin: 0px;
 }
