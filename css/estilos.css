@@ -131,9 +131,9 @@ h1 strong{
 }
 
 footer{
-    background-color:#520c16;
+    background-color:#36923b;
     height: 80px;
-    color: white;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;   
@@ -146,7 +146,7 @@ footer{
 }
 
 .footer a{
-    color:white;
+    color:black;
 }
 
 .experience-title{
@@ -196,11 +196,12 @@ footer{
     color: #36923b;
     border-radius: 5px;
 }
-/* .courses-description{
-    width: 500px;
-} */
 
-/* .courses-details{
-    margin: 30px;
-    padding-left: 30px;         
-} */
+.contact{
+background-color: #36923b;
+color: white;
+height: 150px;
+display: flex;
+align-items: center;
+
+}
