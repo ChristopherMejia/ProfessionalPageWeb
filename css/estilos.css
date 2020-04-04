@@ -1,10 +1,6 @@
 .header{
-    /* background-color:#520c16; */
     background-color:#1d1d1b;
     color:white;
-    /* font-family: 'Sen', sans-serif; */
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-    margin: 0;
     height: 84px;
     display: flex;
     justify-content: space-between;
@@ -12,10 +8,6 @@
 }
 .header a{
     color:white;
-    display: block;
-    height: inherit;
-    align-items: center;
-    padding: 010px;
     text-decoration: none;
 }
 
@@ -27,8 +19,18 @@ ol,ul{
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
 }
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+figure{
+    margin: 0;
+}
+
 .header ol {
     display: flex;
     height: inherit;
@@ -38,32 +40,31 @@ ol,ul{
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 .portfolio{
-    color: white;
     padding: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
     background: white;
 }
 h1,h2,h3,h4,h5{
-    font-family:'Source Sans Pro', sans-serif;  /*Tipo de Fuente*/
-    /* font-weight: normal; */
+    font-family: 'Fjalla One', sans-serif;/*Tipo de Fuente*/
+    font-weight: normal;  
 }
 
 h1{
-    font-size: 35px;    /*Tamaño de letra*/
+    font-size: 40px;    /*Tamaño de letra*/
     line-height: 1.5;  /*espacio entre lineas*/
+    letter-spacing: -.2px;
     text-transform: capitalize; /*modificar la letra mayuscula o minuscula*/
-    /* text-decoration: ; Decorar el parrafo */
-    /* margin: 25px 520px 50px 30px; */
     color:black;
-    padding: 10px;
+    margin: 0;
 }
 h2{
     color: #36923b;
     text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 40px;
@@ -78,27 +79,18 @@ h3{
 }
 
 .project{
-    /* border-color: blue;
-    border-width: 15px;
-    border-style: solid; */
-    border: 1px solid black;
+    border: 1px solid gray;
     border-radius: 10px;
-    /* margin-bottom: 15px; */
-    /* margin: 30px; */
-   
-    justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    background-color:white;
+    background: white;
     display:flex;
     justify-content: space-between;
-    align-items: center;
-    /* margin-right: 0px;
-    margin-top: 0px; */
+    margin-bottom: 15px;
 }
 
 .project-event, .project-date, .project-description{
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 20px;
 }
 
@@ -112,16 +104,10 @@ h3{
 }
 
 .project-details{
-    /* margin: 50px; */
-    width: 700px;
-    flex-wrap: nowrap;
-    color: black;
+    width: 500px;
 }
 .project-image{
-    margin: o;
-    width: 450px;
-    display: block;
-    flex-wrap: nowrap;
+    width: 500px;
 }
 
 .hero{
@@ -133,7 +119,6 @@ h3{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .hero-image{
@@ -142,7 +127,6 @@ h3{
 
 footer{
     background-color:#1d1d1b;
-    height: 70px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -151,8 +135,6 @@ footer{
 }
 .footer img{
     vertical-align: middle;
-    margin: 0;
-    align-items: center;
 }
 
 .footer a{
@@ -168,13 +150,13 @@ footer{
 }
 
 .courses{
-    border: 1px solid gray;
     margin: 10px;
     width: 480px;
     border-radius: 10px;
     overflow: hidden;
     flex-shrink: 0;
-    background: #d9e0e8;
+    background: #36923b;
+
 }
 
 .courses-imageContainer{
@@ -189,7 +171,7 @@ footer{
 
 .courses-details{
     margin: 20px 40px;
-    background: white;
+    background-color: white;
     margin-top: -30px;
     position: relative;
     padding: 20px;
@@ -211,7 +193,7 @@ footer{
 .contact{
     background-color: #36923b;
     color: white;   
-    height: 130px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -222,7 +204,7 @@ footer{
     width: 50px;
     height: 50px;
     background-size: 50px 50px;
-    margin: 0px 15px;
+    margin: 0px 10px;
 }
 .social-link.twitter{
     background-image: url('../image/twitter.svg');
@@ -247,16 +229,20 @@ footer{
 }
 .form-email button{
     display: block;
-    margin-top: 4px;
+    margin-top: 10px;
     background: transparent;
     color: white;
     width: 100px;
-    padding: 5px 30px;
+    padding: 10px 0;
     border-radius: 5px;
 
 }
+.form-email h3 { 
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
 .container{
-    width: 1100px;
+    width: 1000px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
