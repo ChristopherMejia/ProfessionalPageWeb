@@ -158,8 +158,8 @@ footer{
 }
 
 .courses{
-    margin: 10px;
-    width: 480px;
+    margin: 1%;
+    width: 48%;
     border-radius: 10px;
     overflow: hidden;
     flex-shrink: 0;
@@ -309,10 +309,22 @@ footer{
     .project-description{
         font-size: 1em;
     }
+    .courses{
+        width: auto;
+        flex-shrink: initial;
+    }
+    .courses img{
+        width: 100%;
+        height: 378px;
+    }
+
 }
 
 @media screen and (max-width: 480px){
-    
+    .courses-details{
+        margin: -5.5em 2em 1em;
+        padding: 1em;
+    }
 }
 
 @media screen and (max-width: 320px){
