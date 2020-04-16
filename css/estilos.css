@@ -263,7 +263,9 @@ footer{
 
 /*Desktop first que empieces desde el MQ más grande*/
 @media screen and (max-width: 1024px){
-
+    .container{
+        padding: 0 1em;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -324,6 +326,27 @@ footer{
     .courses-details{
         margin: -5.5em 2em 1em;
         padding: 1em;
+    }
+
+    .contact{
+        height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+
+    .form-email button{
+        margin: 1em auto;
+    }
+
+    .form-email h3{
+        margin-top: 0;
+    }
+
+    .footer{
+        display: block;
+        text-align: center;
+        border: 1px solid transparent;
     }
 }
 
