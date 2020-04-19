@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5{
 }
 
 h1{
-    font-size: 40px;    /*Tamaño de letra*/
+    font-size: 30px;    /*Tamaño de letra*/
     line-height: 1.5;  /*espacio entre lineas*/
     letter-spacing: -.2px;
     text-transform: capitalize; /*modificar la letra mayuscula o minuscula*/
@@ -317,7 +317,7 @@ footer{
     }
     
 }
-@media screen and (max-width:913px){
+@media screen and (max-width:938px){
     .hero{
         height: auto;
         position: relative;
