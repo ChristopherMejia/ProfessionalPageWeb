@@ -155,11 +155,24 @@
 	</footer>
 
 	<script>
+		const mediaQuery= window.matchMedia('screen and (max-width: 767px)'); //mediaQuery en JS
+		
+		
 		const menu = document.querySelector('.menu'); //Selector de nuestra clase menu
-		// console.log(menu);
 		const burgerButton = document.querySelector('#burger-menu'); //Selector de nuestro menu de hamburguesa
-		// console.log(burgerButton)
-		burgerButton.addEventListener('click', hideShow)
+
+
+		//agregamos la funcion validation al evento addListener
+		mediaQuery.addListener(validation);
+		validation(mediaQuery);
+
+		//Declaramos la funcion y Validamos si se cumple el mediaQuery
+		function validation(event){  
+			if(event.matches){
+				burgerButton.addEventListener('click', hideShow);
+				console.log(event.matches);
+			}
+		}
 
 		function hideShow() {
 			menu.classList.toggle('is-active');
