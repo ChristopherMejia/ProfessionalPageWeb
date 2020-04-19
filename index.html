@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-	<i class = "icon-menu burger-button"></i>
+	<i class = "icon-menu burger-button" id="burger-menu"></i>
 	<header class="header">
 		<div class="container">
 			<figure class="logo">
@@ -21,7 +21,7 @@
 					<a class="link" href="#portafolio">Portafolio</a>
 				  </li>
 				  <li>
-					<a class="link" href="#eventos">Experiencia</a>
+					<a class="link" href="#experiencia">Experiencia</a>
 				  </li>
 				  <li>
 					<a class="link" href="#contacto">Trabajemos juntos</a>
@@ -37,7 +37,7 @@
 				Hola! Soy <strong>Christopher Mejia</strong><br>desarrollando
 				<strong>habilidades</strong><br> en el desarrollo de software 
 			</h1>
-			<img class="hero-image" src="image/chris.jpg" width="450" height="300" Imagen de Portada>
+			<img class="hero-image" src="image/developer-css.jpg" width="450" height="300" Imagen de Portada>
 		</div>
 	</section>
 	<section id="portafolio" class="portfolio">
@@ -153,6 +153,23 @@
 			</div>
 		</div>
 	</footer>
+
+	<script>
+		const menu = document.querySelector('.menu'); //Selector de nuestra clase menu
+		// console.log(menu);
+		const burgerButton = document.querySelector('#burger-menu'); //Selector de nuestro menu de hamburguesa
+		// console.log(burgerButton)
+		burgerButton.addEventListener('click', hideShow)
+
+		function hideShow() {
+			menu.classList.toggle('is-active');
+			// if(menu.classList.contains('is-active')){
+			// 	menu.classList.remove('is-active');
+			// } else{
+			// 	menu.classList.add('is-active');
+			// }
+		}
+	</script>
 
 </body>
 </html>
