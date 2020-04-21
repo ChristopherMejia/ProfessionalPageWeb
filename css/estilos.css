@@ -318,6 +318,10 @@ footer{
     
 }
 @media screen and (max-width:938px){
+     
+    .portfolio{
+        padding: 0;
+    }
     .hero{
         height: auto;
         position: relative;
@@ -328,6 +332,9 @@ footer{
         font-size: 2.5em;
         padding: 2em 1em;
         z-index: 2;
+    }
+    h2{
+        margin: .5em 0;
     }
 
     .hero-image{
