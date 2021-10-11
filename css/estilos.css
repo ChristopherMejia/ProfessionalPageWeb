@@ -432,6 +432,11 @@ footer {
     width: auto;
     flex-shrink: initial;
   }
+
+  .proyect {
+    width: auto;
+    flex-shrink: initial;
+  }
   .courses img {
     width: 100%;
     height: 378px;
